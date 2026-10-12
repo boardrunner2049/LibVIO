@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(vio_consumer C)
+find_package(vio 1.0 REQUIRED)
+add_executable(consumer main.c)
+target_link_libraries(consumer PRIVATE vio::vio)
+if(NOT EXISTS "${VIO_CONTRACT_DIR}/api_reference.md")
+  message(FATAL_ERROR "VIO_CONTRACT_DIR has no api_reference.md: ${VIO_CONTRACT_DIR}")
+endif()

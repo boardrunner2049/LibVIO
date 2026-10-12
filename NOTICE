@@ -1,0 +1,8 @@
+LibVIO
+Copyright 2026 The Pennsylvania State University
+
+Developed by the Penn Systems & Security Lab (PSecLab).
+
+This product includes cJSON (src/third_party/cjson), Copyright (c) 2009-2017
+Dave Gamble and cJSON contributors, licensed under the MIT License; see
+src/third_party/cjson/LICENSE.

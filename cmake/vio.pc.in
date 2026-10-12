@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/@VIO_PC_TO_PREFIX@
+libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+contractdir=${prefix}/@CMAKE_INSTALL_DATADIR@/vio/contract
+
+Name: vio
+Description: Virtual I/O library for emulated peripheral models
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -lvio
+Libs.private: -ldl -lm
+Cflags: -I${includedir}
