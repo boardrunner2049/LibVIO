@@ -97,5 +97,4 @@ A host can take them over with `vio_set_logger()` and filter them with
 ## License
 
 LibVIO is licensed under the [Apache License 2.0](LICENSE). Copyright 2026
-The Pennsylvania State University; developed by the Penn Systems & Security
-Lab (PSecLab). It includes cJSON under the MIT License; see [NOTICE](NOTICE).
+PSecLab. It includes cJSON under the MIT License; see [NOTICE](NOTICE).

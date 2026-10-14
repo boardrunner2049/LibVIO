@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 (2026-10-14)
+
+* Copyright holder in `NOTICE` and the README is PSecLab. No code changes.
+
 ## 1.0.0 (2026-10-12)
 
 First version as a standalone library, from FastDyn's
